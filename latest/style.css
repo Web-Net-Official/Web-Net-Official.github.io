@@ -1,0 +1,86 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+.search {
+	text-align: center;
+}
+
+.search h1 {
+	font-size: 60px;
+	padding-bottom: 20px;
+}
+
+.search-again input,
+.search input {
+	padding: 10px;
+	border: 1px solid #eee;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+	width: 100%;
+}
+
+.search-buttons {
+	margin-top: 20px;
+}
+
+.search-again button,
+.search-buttons button {
+	border: 1px solid #eee;
+	border-radius: 3px;
+	width: 100%;
+	padding: 10px;
+	font-weight: 700;
+	color: #666;
+	background: #eee;
+}
+
+.search-again button {
+	background: #fff;
+}
+
+.search-buttons button:hover {
+	border: 1px solid #ddd;
+}
+
+.result {
+	margin-bottom: 30px;
+}
+
+.result h4,
+.result p {
+	margin-bottom: 0;
+}
+
+.result p.link {
+	color: #006621;
+}
+
+.result h4.title a {
+	color: #609;
+}
+
+.search-again {
+	background-color: #eee;
+	padding: 20px;
+}
+
+.search-again h1 {
+	margin-top: 0;
+}
+
+.search-again h1 a {
+	color: inherit;
+}
+
+.search-again h1 a:hover {
+	text-decoration: none;
+}
+
+#results {
+	padding-top: 30px;
+}
