@@ -1,4 +1,3 @@
 # Messenger
-The source code of the howCode Messenger tutorials.
+The source code 
 
-You can watch the tutorials here: http://www.youtube.com/howCode
