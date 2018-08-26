@@ -13,7 +13,7 @@ M Daniyal Khattak<br>
 Ismail Haider<br>
 Robert Lee<br>
 Matt Kanzer<br>
-Zeus
+Zeus.
 
 # Discord
 
