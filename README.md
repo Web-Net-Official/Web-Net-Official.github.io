@@ -10,16 +10,16 @@ A Chromium Web Browser, Fast and reliable, Which doesnot track you
 
 M Raahim Khattak<br>
 M Daniyal Khattak<br>
-Ismail Haider<br>
+Saulik Haider<br>
 Robert Lee<br>
 Matt Kanzer<br>
 Zeus.
 
 # Discord
 
-<a href="https://discord.gg/kGq4Qtx">Join Us</a>
+<a href="https://discord.ly/webnet">Join us at Discord</a>
 
 # Website
 
-<a href="http://www.web-net.tk">www.web-net.tk</a>
+<a href="http://web-net.tk">Our Official Website</a>
 
