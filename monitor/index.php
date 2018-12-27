@@ -1,4 +1,5 @@
-<style>
+<title>Webnet Official Monitor
+</title><style>
 .iframe-container iframe {
    height: 100%;
    left: 0;

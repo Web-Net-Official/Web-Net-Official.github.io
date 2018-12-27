@@ -17,6 +17,11 @@ audio {
    display:none;
 }
 </style>
+<center>
+	 <div style="border-bottom:1px #999999 solid;width:480;\"><b>
+	   <font size="10" color='#3896CC'>Webnet Official</font></b>
+	 </div>
+   </center>
 <?php error_reporting(0); ?>
 <?php
 date_default_timezone_set('UTC');
@@ -224,29 +229,29 @@ EOT;
 // downtime ? Let's play some fancy music !
 if ($downTime == TRUE) {
 print <<<EOT
-<audio controls autoplay loop><source src="alarm.mp4" type="audio/mp4"></audio><br>
+<audio controls autoplay loop><source src="alarm.mp4" type="audio/mp4"></audio>
 EOT;
 }
 
 // a text not found ? Some calmer tunes
 if ($textNotFound == TRUE) {
 print <<<EOT
-<audio controls autoplay loop><source src="textnotfound.mp4" type="audio/mp4"></audio><br>
+<audio controls autoplay loop><source src="textnotfound.mp4" type="audio/mp4"></audio>
 EOT;
 }
 
 // proceed with the rest of the page
 $pageCall=date(DATE_ATOM, time());
       echo <<<EOT
-Status Generated: {$pageCall}
+<font size="4" color='#3896CC'>Status Generated: {$pageCall}
 
       
             <div class="box-content">
                 <table class="w3-table-all w3-large">
  <thead>
   <tr class="w3-red">
-     <th>Address + Port/String</th>
-
+<!--<th>Address + Port/String</th>-->
+     <th>Monitor</th>
      <th>Last Check</th>
      <th>Last Response</th>
      <th>Last Connect</th>
@@ -343,13 +348,12 @@ td,body
 	color: #444444;
 }
 </style>
-<br>
 	<center>
-	 <div style=\"border-bottom:1px #999999 solid;width:480;\"><b>
-	   <font size='1' color='#3896CC'>Service Status</font></b>
-	 </div>  
+	 <div>
+	   <font size='4' color='#3896CC'>   Service Status</font>
+	 </div>
    </center>
-<br>";
+";
 
 //configure script
 $timeout = "1";
@@ -362,11 +366,15 @@ Each service can have a name, port and the Unix domain it run on (default to loc
 */
 $services = array();
 
-
 $services[] = array("port" => "90",       "service" => "Panel",                  "ip" => "wno-host.ddns.net") ;
+$services[] = array("port" => "90",       "service" => "UCP",                     "ip" => "wno-host.ddns.net") ;
+$services[] = array("port" => "90",       "service" => "File Manager",                     "ip" => "wno-host.ddns.net") ;
 $services[] = array("port" => "91",       "service" => "FTP",                     "ip" => "wno-host.ddns.net") ;
 $services[] = array("port" => "80",       "service" => "Forum",				"ip" => "forum.webnet-oficial.tk") ;
-$services[] = array("port" => "80",       "service" => "Server",     "ip" => "web-net.tk") ;
+$services[] = array("port" => "80",       "service" => "Database",				"ip" => "forum.webnet-oficial.tk") ;
+$services[] = array("port" => "80",       "service" => "Name server",     "ip" => "web-net.tk") ;
+$services[] = array("port" => "80",       "service" => "Website",     "ip" => "web-net.tk") ;
+$services[] = array("port" => "80",       "service" => "Back-End Core",     "ip" => "web-net.tk") ;
 $services[] = array("port" => "80",     "service" => "Ubuntu",             	"ip" => "www.ubuntu.com") ;
 
 
