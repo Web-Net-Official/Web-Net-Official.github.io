@@ -1,0 +1,62 @@
+[
+    {
+        "address": "http:\/\/forum.webnet-oficial.tk\/forum\/index.php",
+        "type": "url",
+        "findString": "80",
+        "timeout": 3,
+        "checkInterval": 100,
+        "lastCheck": 1545909159,
+        "lastResultDuration": "691",
+        "lastResultConnection": "ConnectOK",
+        "lastResultString": "StringOK",
+        "emailNotification": "email@nowhere.local"
+    },
+    {
+        "address": "http:\/\/forum.webnet-oficial.tk\/panel\/",
+        "type": "url",
+        "findString": "90",
+        "timeout": 3,
+        "checkInterval": 100,
+        "lastCheck": 1545909159,
+        "lastResultDuration": "7",
+        "lastResultConnection": "ConnectOK",
+        "lastResultString": "StringOK",
+        "emailNotification": "email@nowhere.local"
+    },
+    {
+        "address": "http:\/\/forum.webnet-oficial.tk\/wpanel\/",
+        "type": "url",
+        "findString": "90",
+        "timeout": 3,
+        "checkInterval": 100,
+        "lastCheck": 1545909159,
+        "lastResultDuration": "8",
+        "lastResultConnection": "ConnectOK",
+        "lastResultString": "StringOK",
+        "emailNotification": "email@nowhere.local"
+    },
+    {
+        "address": "https:\/\/web-net.tk",
+        "type": "url",
+        "findString": "Webnet Official",
+        "timeout": 3,
+        "checkInterval": 100,
+        "lastCheck": 1545909159,
+        "lastResultDuration": "557",
+        "lastResultConnection": "ConnectOK",
+        "lastResultString": "StringOK",
+        "emailNotification": "email@nowhere.local"
+    },
+    {
+        "address": "https:\/\/www.ubuntu.com\/",
+        "type": "url",
+        "findString": "Linux",
+        "timeout": 3,
+        "checkInterval": 100,
+        "lastCheck": 1545909160,
+        "lastResultDuration": "746",
+        "lastResultConnection": "ConnectOK",
+        "lastResultString": "StringOK",
+        "emailNotification": "email@nowhere.local"
+    }
+]
