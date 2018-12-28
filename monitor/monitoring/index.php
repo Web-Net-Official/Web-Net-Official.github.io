@@ -387,7 +387,7 @@ foreach ($services  as $service) {
 
 	$fp = @fsockopen($service['ip'], $service['port'], $errno, $errstr, $timeout);
 	if (!$fp) {
-		$data .= "<tr><td>" . $service['service'] . "</td><td bgcolor='#FFC6C6'>Offline </td></tr>";
+		$data .= "<tr><td>" . $service['service'] . "<audio controls autoplay loop><source src='textnotfound.mp4' type='audio/mp4'></audio></td><td bgcolor='#FFC6C6'>Offline</td></tr>";
 	  //fclose($fp);
 	} else {
 		$data .= "<tr><td>" . $service['service'] . "</td><td bgcolor='#D9FFB3'>Online</td></tr>";
