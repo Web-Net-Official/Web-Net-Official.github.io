@@ -17,7 +17,7 @@ Zeus.
 
 # Discord
 
-<a href="https://discord.ly/webnet">Join us at Discord</a>
+<a href="https://discord.gg/DMSPhvK">Join us at Discord</a>
 
 # Website
 
