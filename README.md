@@ -21,5 +21,5 @@ Zeus.
 
 # Website
 
-<a href="http://web-net.tk">Our Official Website</a>
+<a href="http://web-net-official.github.io">Our Official Website</a>
 
