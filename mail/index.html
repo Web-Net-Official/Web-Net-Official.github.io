@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-<title>title</title>	
-<link rel="shortcut icon" href="img/icons/favicon.png" type="image/png" sizes="16x16">
+<title>Mission Hire</title>	
+<link rel="shortcut icon" href="http://www.missionhire.ae/img/icons/favicon.png" type="image/png" sizes="16x16">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -37,28 +37,42 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+input[type=file]{
+background-color: white;
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 </style>
 </head>
 <body>
 
-<h3>title</h3>
+<h3>Missionhire.ae</h3>
 
 <div class="container">
-  <form action="email.php" method="post">
-    <label for="toemail">To Email</label>
-    <input type="text" id="toemail" name="toemail" placeholder="Enter client Email..">
+ <form action="mail.php" method="post">
+    <label for="toemail">To Email <font color="red"><b>*</b></font></label>
+    <input type="text" id="toemail" name="toemail" placeholder="Enter client Email.." required>
+	
+	<label for="from">From Email <font color="red"><b>*</b></font></label>
+    <input type="text" id="from" name="from" placeholder="Enter your Email.." required>
 
-    <label for="subject">Subject</label>
-    <input type="text" id="subject" name="subject" placeholder="Enter Subject name here..">
+    <label for="subject">Subject <font color="red"><b>*</b></font></label>
+    <input type="text" id="subject" name="subject" placeholder="Enter Subject name here.." required>
 
-  
-    <label for="comment">Message</label>
-    <textarea id="comment" name="comment" placeholder="Enter your Message here.." style="height:200px"></textarea>
+    <label for="message">Message <font color="red"><b>*</b></font></label>
+    <textarea id="message" name="message" placeholder="Enter your Message here.." style="height:200px" required></textarea>
 
+	<br><br>
     <input type="submit" value="Send">
   </form>
 </div>
-
 </body>
 <script>
     $(document).ready(function(){ 
