@@ -1,5 +1,6 @@
 <?php
-$db = new mysqli("localhost", "", "", "");
+error_reporting(0);
+$db = new mysqli("localhost", "root", "pakarmy", "messenger");
 
 if ($db->connect_error) {
 	die("Sorry, there was a problem connecting to our database.");
@@ -8,7 +9,7 @@ if ($db->connect_error) {
 $username = stripslashes(htmlspecialchars($_GET['username']));
 
 $result = $db->prepare("SELECT * FROM messages");
-$result->bind_param("s", $username);
+$result->bind_param("ss", $username);
 $result->execute();
 
 $result = $result->get_result();

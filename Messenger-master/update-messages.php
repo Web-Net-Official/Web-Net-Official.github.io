@@ -1,5 +1,6 @@
 <?php
-$db = new mysqli("localhost", "", "", "");
+error_reporting(0);
+$db = new mysqli("localhost", "root", "pakarmy", "messenger");
 
 if ($db->connect_error) {
 	die("Sorry, there was a problem connecting to our database.");

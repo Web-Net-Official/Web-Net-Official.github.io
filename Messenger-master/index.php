@@ -240,7 +240,7 @@ function sendmsg() {
 
 }
 
-setInterval(function(){ update() }, 60000);
+setInterval(function(){ update() }, 1000);
 </script>
 </body>
 </html>
