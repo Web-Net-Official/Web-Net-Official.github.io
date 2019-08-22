@@ -1,17 +1,10 @@
 <?php
 error_reporting(0);
-$db = new mysqli("localhost", "root", "password", "messenger");
-
-if ($db->connect_error) {
-	die("Sorry, there was a problem connecting to our database.");
-}
-
+include 'db.php';
 $username = stripslashes(htmlspecialchars($_GET['username']));
-
 $result = $db->prepare("SELECT * FROM messages");
 $result->bind_param("ss", $username);
 $result->execute();
-
 $result = $result->get_result();
 while ($r = $result->fetch_row()) {
 	echo $r[1];
