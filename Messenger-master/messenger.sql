@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.4
+-- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: May 17, 2019 at 03:16 PM
+-- Host: 127.0.0.1:3306
+-- Generation Time: Aug 22, 2019 at 11:23 AM
 -- Server version: 10.1.37-MariaDB
--- PHP Version: 7.3.0
+-- PHP Version: 7.3.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -30,9 +30,29 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `messages` (
   `id` int(11) NOT NULL,
-  `username` text NOT NULL,
-  `message` text NOT NULL
+  `username` varchar(255) NOT NULL,
+  `message` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `messages`
+--
+ALTER TABLE `messages`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `messages`
+--
+ALTER TABLE `messages`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
