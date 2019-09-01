@@ -53,6 +53,7 @@ background-color: white;
 <div class="container">
  <form action="smail.php" method="post">
     <label for="toemail">To Email <font color="red"><b>*</b></font></label>
+	 <!-- multiple emails can be added at once example someone@example.com, someone2@example.com-->
     <input type="text" id="toemail" name="toemail" placeholder="Enter client Email.." required>
 	
 	<label for="from">From Name <font color="red"><b>*</b></font></label>
