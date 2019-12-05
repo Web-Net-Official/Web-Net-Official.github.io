@@ -79,15 +79,4 @@ background-color: white;
   </form>
 </div>
 </body>
-<script>
-    $(document).ready(function(){ 
-	$('body').find('img[src$="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"]').remove();
-    }); 
-</script>
-<script>
-window.onload = () => {
-    let el = document.querySelector('[alt="www.000webhost.com"]').parentNode.parentNode;
-    el.parentNode.removeChild(el);
-}
-</script>
 </html>
