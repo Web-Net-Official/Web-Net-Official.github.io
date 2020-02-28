@@ -1,0 +1,33 @@
+
+	<platform name="android">
+	<splash density="land-ldpi" src="www/img/drawable-land-ldpi-screen.png" />
+    <splash density="land-mdpi" src="www/img/drawable-land-mdpi-screen.png" />
+    <splash density="land-hdpi" src="www/img/drawable-land-hdpi-screen.png" />
+    <splash density="land-xhdpi" src="www/img/drawable-land-xhdpi-screen.png" />
+    <splash density="land-xxhdpi" src="www/img/drawable-land-xxhdpi-screen.png" />
+    <splash density="land-xxxhdpi" src="www/img/drawable-land-xxxhdpi-screen.png" />
+    <splash density="port-ldpi" src="www/img/drawable-port-ldpi-screen.png" />
+    <splash density="port-mdpi" src="www/img/drawable-port-mdpi-screen.png" />
+    <splash density="port-hdpi" src="www/img/drawable-port-hdpi-screen.png" />
+    <splash density="port-xhdpi" src="www/img/drawable-port-xhdpi-screen.png" />
+    <splash density="port-xxhdpi" src="www/img/drawable-port-xxhdpi-screen.png" />
+    <splash density="port-xxxhdpi" src="www/img/drawable-port-xxxhdpi-screen.png" />
+    </platform>
+	
+    <access origin="*" browserOnly="true" subdomains="true" />
+	<allow-navigation href="*"/>
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+	
+	<platform name="android">
+    <edit-config xmlns:android="http://schemas.android.com/apk/res/android" file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
+    <application android:networkSecurityConfig="@xml/network_security_config" />
+    </edit-config>
+	<allow-intent href="market:*" />
+    <resource-file src="network_security_config.xml" target="app/src/main/res/xml/network_security_config.xml" />
+    </platform>
+
