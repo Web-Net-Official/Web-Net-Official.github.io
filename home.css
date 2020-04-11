@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fullBackground {
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.caption {
+  font-size: 30pt;
+  text-transform: uppercase;
+  color: #fff;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+.caption:after {
+  content:"\A";
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  display: inline-block;
+  margin: 0 0 -2px;
+}
+
+.bookmarks
+{
+width: 400px;
+margin-top: 30px;
+font-family: sans-serif;
+display: block;
+left: 5%;
+transform: translateX(-50%);
+position: absolute;
+}
+
+.col-md-4
+{
+	width: 120px !important;
+	padding: none!important;
+}
+
+.site
+{
+	width: 120px;
+	height: 120px;
+	border-radius: 5px;	
+}
+
+.site:hover
+{
+	background-color: rgba(192,192,192,0.1);
+	cursor: pointer;
+}
+
+.site p
+{
+	margin-top: 10px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.site .fa
+{
+	font-size: 25px;
+	width: 50px;
+	height: 50px;
+	#margin-left: 35px;
+	margin-top: 20px;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 12px;
+}
