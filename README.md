@@ -1,7 +1,8 @@
 <p align="center">
 <a href="https://imgbb.com/"><img src="https://imgur.com/N8gFgep.png" alt="bevr" border="0"></a>
 </p>
-
+ <a href="https://github.com/Codiscite/peacock/releases/latest"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/Codiscite/Peacock?color=tuquoise&label=LATEST&logo=github&logoColor=white&style=for-the-badge"></a>
+  <a href="https://discord.gg/DMSPhvK"><img alt="Discord" src="https://img.shields.io/discord/630199884229771314?color=%237289DA&label=discord&logo=Discord&logoColor=white&style=for-the-badge"></a>
 # WebNet Official
 
 A Chromium Web Browser, Fast and reliable, Which doesnot track you
