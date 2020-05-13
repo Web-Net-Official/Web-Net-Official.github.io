@@ -1,7 +1,8 @@
 <h1 align="center">Webnet Official</h1>
 <p align="center">
 <img src="https://imgur.com/N8gFgep.png" style="display: block;margin-left: auto;margin-right: auto;" data-canonical-src="https://imgur.com/N8gFgep.png" width="300" height="300" align="center"/><br><br>
-<a href="https://github.com/Web-Net-Official/web-net-official.github.io/releases/latest"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/Web-Net-Official/web-net-official.github.io?color=tuquoise&label=LATEST&logo=github&logoColor=white&style=for-the-badge"></a>&nbsp;<a href="https://discord.gg/DMSPhvK"><img alt="Discord" src="https://img.shields.io/discord/418790039514775554?color=%237289DA&label=discord&logo=Discord&logoColor=white&style=for-the-badge"></a></p>
+<a href="https://github.com/Web-Net-Official/web-net-official.github.io/releases/latest"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/Web-Net-Official/web-net-official.github.io?color=tuquoise&label=LATEST&logo=github&logoColor=white&style=for-the-badge"></a>&nbsp;<a href="https://discord.gg/DMSPhvK"><img alt="Discord" src="https://img.shields.io/discord/418790039514775554?color=%237289DA&label=discord&logo=Discord&logoColor=white&style=for-the-badge"></a>
+[![Downloads](https://img.shields.io/github/downloads/wexond/desktop/total.svg?style=flat-square)](https://github.com/Web-Net-Official/desktop/releases)</p>
   
 # WebNet Official
 
