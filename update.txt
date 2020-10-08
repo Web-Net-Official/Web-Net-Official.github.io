@@ -1,2 +1,1 @@
-4.8.1997.2019
-https://github.com/Web-Net-Official/web-net-official.github.io/releases/download/v4.8/file.rar
+https://github.com/Web-Net-Official/web-net-official.github.io/releases/latest/download/file.rar
