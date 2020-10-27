@@ -10,11 +10,11 @@ A Chromium Web Browser, Fast and reliable, Which doesnot track you
 
 ### Screenshots
 
-<img src="https://web-net.ml/webnetgithub/images/imageedit_7_4114612147.png"/>
+<img src="https://web-net.ml/download/images/imageedit_7_4114612147.png"/>
 
 ### Download
 
-Download the Windows edition [here](https://github.com/Web-Net-Official/web-net-official.github.io/releases/latest). & Android edition [here](https://web-net.ml/webnetgithub/webnet_official.apk).
+Download the Windows edition [here](https://github.com/Web-Net-Official/web-net-official.github.io/releases/latest/download/file.rar). & Android edition [here](https://web-net.ml/download/webnetofficial.apk).
 
 # Team
 
