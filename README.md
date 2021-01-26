@@ -14,7 +14,7 @@ A Chromium Web Browser, Fast and reliable, Which doesnot track you
 
 ### Download
 
-Download the Windows edition [here](https://github.com/Web-Net-Official/web-net-official.github.io/releases/latest/download/file.rar). & Android edition [here](https://web-net.ml/download/webnetofficial.apk).
+Download the Windows edition [here](https://github.com/Web-Net-Official/web-net-official.github.io/releases/latest/download/file.rar). & MAC-OS edition [here](https://github.com/Web-Net-Official/web-net-official.github.io/releases/latest/download/WebNet_Official.app.zip). & Android edition [here](https://web-net.ml/download/webnetofficial.apk).
 
 # Team
 
